@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #FFE4E1;
+}
+
+/*Hien thi login*/
+.login{
+    width: 100%;
+    height:100%;
+    text-align: center;   
+    background-color: #FFE4E1;
+}
+
+.login .form{
+    width: 45%;
+    height: 370px;
+    margin: 100px auto;
+    background-color: #ffff;
+    border: 1px solid;
+}
+
+.container-left-Form{
+    float: left;
+    margin-top: 30px;    
+    width: 50%;
+    height: 100%;
+}
+
+.container-left-Form img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.container-right-Form{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+    
+}
+.container-right-Form>h2{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.Check{
+    
+    width: 80%;
+    height: 30px;    
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+.Check>input{
+    padding-top: 3px;
+    display: inline-block;
+    width: 70%;
+    height: 90%;
+    border: 0;
+    background-color:#E6E6E6;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;;
+}
+
+
+#dangnhap{
+margin-top: 20px;
+font-size: 15px;
+width: 160px;
+height: 30px;
+border-radius: 14px;
+border: 0;
+cursor: pointer;
+color: white;
+background-color: #6FB555;
+}
+#dangnhap:hover{
+    background-color:#DB7093 ;
+}
+/*End hien thi login*/
+
+/*---------------------Phan giao dien admin-------------------*/
+.hienthiadmin{
+    height: 100%;
+    display: none;
+    
+}
+
+.content{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: column ;
+}
+
+/* begin - content right*/
+.content-right{
+    width: 80%;
+    min-height: 700px;
+}
+
+.name-header-ds-sp{
+    width: 94%;
+    min-height: 700px;
+    border: 1px solid #cccc;
+    margin-left: 3%;
+}
+
+.name-danhsach-sp{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 600;
+    background-color: #4A6A70;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.button-them-sp{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #868686;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 82%;
+    margin-bottom: 20px;
+}
+
+.button-them-sp > a{
+color: white;
+}
+
+.button-them-sp:hover{
+    background-color: white;
+    color: #66a182;
+    border: 1px solid #66a182;
+}
+
+.button-them-sp:hover > a{
+    color: #66a182;
+}
+
+.table-thongtin-sp{
+    width: 97%;
+    border-collapse: collapse;
+    border: 1px solid #cccc;
+    margin-left: 1.5%;
+}
+
+.table-tr-1 > th{
+    padding: 10px 0px;
+}
+
+.table-tr-2,
+.table-tr-1 th{
+    border: 1px solid #cccc;
+}
+
+.img-pading{
+    width: 80px;
+    height: 100px;
+}
+
+.table-tr-2 td{
+    border: 1px solid #cccc;
+    text-align: center;
+}
+
+.table-tr-2 > td > a{
+    color: red;
+    padding: 0px 10px
+}
+
+.table-tr-2 > td > img{
+   width: 100%;
+   height: 100%;
+}
+
+/* end - content - right*/
+
+/* begin - content - left*/
+.content-left{
+    width: 20%;
+    min-height: 500px;
+    background-color:#093d79;
+}
+
+.avatar{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.content-left h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.chucnang ul{
+    padding: 0px;
+}
+
+.chucnangnho{
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.chucnangnho i,
+.chucnangnho p{
+    color:aliceblue;
+}
+
+.chucnangnho:hover,
+.chucnangnho:focus,
+.chucnangnho:active{
+    background-color: #2295f6;
+}
+/* end - content - left*/
